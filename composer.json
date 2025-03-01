@@ -20,12 +20,12 @@
         }
     ],
     "require": {
-        "php": "^7.3 || ^8.0",
-        "composer-plugin-api": "~1.0 || ~2.0",
+        "php": "^8.0",
+        "composer-plugin-api": "*",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "~7"
+        "guzzlehttp/guzzle": "*"
     },
     "autoload": {
         "psr-4": {
@@ -51,7 +51,7 @@
     "config": {
         "sort-packages": true,
         "platform": {
-            "php": "7.3"
+            "php": "^8.0"
         }
     },
     "scripts": {
